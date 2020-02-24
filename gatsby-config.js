@@ -9,7 +9,7 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-functions',
       options: {
         functionsSrc: `${__dirname}/src/functions`,
-        functionsOutput: `${__dirname}/functions`,
+        functionsOutput: `${__dirname}/public/functions`,
       },
     },
     'gatsby-plugin-react-helmet',
