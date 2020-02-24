@@ -1,6 +1,6 @@
 exports.handler = async function (event) {
   return {
-    statusCode,
+    statusCode: 200,
     headers,
     body: 'Jello world'
   };
