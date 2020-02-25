@@ -5,13 +5,13 @@ module.exports = {
     author: '@gatsbyjs',
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-netlify-functions',
-      options: {
-        functionsSrc: `${__dirname}/src/functions`,
-        functionsOutput: `${__dirname}/public/functions`,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-netlify-functions',
+    //   options: {
+    //     functionsSrc: `${__dirname}/src/functions`,
+    //     functionsOutput: `${__dirname}/public/functions`,
+    //   },
+    // },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
